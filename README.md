@@ -25,4 +25,4 @@ h) Live demo (Link to an actual working demo/website) we can only show the flow 
 i) What your team used to build your solution* (e.g. IBM Cloudant, IBM Cloud
 Functions, etc...)
 
-* means compulsory
+"*" means compulsory
