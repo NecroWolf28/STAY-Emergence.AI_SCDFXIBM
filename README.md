@@ -6,11 +6,15 @@ Our team consists of Sean, Timothy, Alex and Yew Meng, and our initials form the
 a) 
 The problem we are tackling is focused on the elderly, especially those who live alone or in a seculded area. If these elderly were to collapse at home or suffer from a cardiac arrest or heart attack, they may be incapacitated and be unable to move to their home phone or mobile phone to make an emergency call. This gave us the idea to utilise wearables with sensors to detect their heart rate as well as accelerometers to detect a fall. There are many of these wearables widely available, from brands such as FitBit. We decided to write a program that will send relevant important data to SCDF (wearer's name, location, incident, etc.) and ensure that the elderly will be provisioned help as soon as possible, and by doing so, greatly decrease
 
-b) pitch video link here*
+b) https://youtu.be/O6f9p4rbXM4
 
-c) architecture*
+c)  1. Sensor data from device is sent to Node-RED Server App
+    2. Data is sent to IBM Watson Visual Recognition for categorization
+    3. Response is sent back to Node-RED as positive or negative case
+    4. Device may send cancellation order in case of false positive
+    5. Emergency alert sent to SCDF
 
-d) hyperlink to your detailed solution* (Long description of your solution, the kill switch can be explained here, as well as the ML for the images)
+d) https://docs.google.com/presentation/d/1iO-BQS5iraRGK70F51y7vvYXo1Ny9nYJ-yu_r1TuJtg/edit?usp=sharing
 
 e) project roadmap/proposed timeline
 
